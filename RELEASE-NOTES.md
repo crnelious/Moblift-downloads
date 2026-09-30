@@ -1,26 +1,25 @@
-Moblift 0.16.2 is a preview Mac app for capturing and organizing iPhone screens.
+Moblift 0.16.2 is now **Developer ID-signed and notarized by Apple**.
 
-## Download and install
+**[Download Moblift for Mac](https://github.com/crnelious/Moblift-downloads/releases/latest/download/Moblift-macOS.zip)**
 
-Download **Moblift-macOS.zip** under Assets, unzip it, and move **Moblift.app** to **Applications**. Do not choose GitHub’s “Source code” archives; those contain only this download repository’s documentation.
+## Install
 
-- **Apple Silicon (M1 or newer)**
-- **macOS 14 or later** declared by the app; built with the macOS 27 SDK
-- Approximately **73 MB**
-- Main app version **0.16.2**, build **27**
+1. Download **Moblift-macOS.zip**, unzip it, and move **Moblift.app** to **Applications**.
+2. Open Moblift and confirm macOS’s normal first-open prompt if shown.
 
-## First launch
+Requires an **Apple Silicon Mac (M1 or newer)** running **macOS 14 or later**. Intel Macs and Windows are not supported by this build. The app was built using the macOS 27 SDK; compatibility has not been tested on every macOS version declared by the app.
 
-This preview is Apple Development-signed and **not notarized**. If macOS reports that the developer cannot be verified or Apple cannot check the app, and you trust this download, try opening it once, then use **System Settings → Privacy & Security → Open Anyway**. See [Apple’s instructions](https://support.apple.com/en-us/102445). Company-managed Macs may require IT approval.
+## Changes in this download
 
-Ordinary capture and video import do not require Xcode. Optional experimental remote control does require Xcode, iPhone Developer Mode, and an Apple development team; see **Moblift-Quick-Start.md**.
+- Signed the main app and bundled Mac runtime with Developer ID and secure timestamps.
+- Removed development-only debugger access from the app and Node runtime.
+- Included Apple’s notarization ticket with the app.
+- Updated the bundled runtime version so existing installations can refresh the controller.
 
-## Included
+The app remains **version 0.16.2, build 27**. This release updates distribution signing and packaging; it adds no new app features. Automatic updates are not included.
 
-- Packaged Moblift app with its bundled remote-control runtime
-- Quick-start instructions
-- SHA-256 checksum for the ZIP
+Ordinary capture and video import do not require Xcode. Optional experimental iPhone remote control still requires Xcode, iPhone Developer Mode, and an Apple development team. See the attached **Moblift-Quick-Start.md**.
 
-The main Mac app source repository remains private. The runtime includes third-party dependencies and two Moblift helper source files required for optional remote control. No capture library is included.
+The main app source repository remains private. The download includes its runtime dependencies and the two Moblift helper source files needed for optional remote control. No capture library is included.
 
-Automatic updates and Developer ID notarization are not included in this release. Compatibility has not been tested on every macOS version declared by the app.
+Download the ZIP asset for the app. GitHub’s “Source code” archives contain only this download repository’s documentation. A SHA-256 checksum is attached for download verification.

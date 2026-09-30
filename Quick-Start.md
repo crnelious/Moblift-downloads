@@ -86,5 +86,5 @@ that developer tools are connected. Moblift does not hide it.
 
 Requires Apple Silicon and macOS 14 or later. Built and checked with Xcode 27 and
 the macOS 27 SDK. The download contains the app and its bundled controller, never
-someone's capture library. This is an Apple Development-signed preview build;
-a Developer ID, notarization and automatic updates are separate distribution work.
+someone's capture library. This build is signed with Developer ID and notarized by Apple. Automatic updates
+are not included.
