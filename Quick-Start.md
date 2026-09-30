@@ -14,6 +14,13 @@ Shopping app → Checkout → Cart, Delivery, Payment, Confirmation.
 4. **Space** captures the iPhone screen. **⇧⌘R** starts and stops recording.
    Captures save automatically on this Mac.
 
+## Menu bar
+
+Click the small Mobbin mark in the Mac menu bar to **Open Moblift** or **Quit
+Moblift**. Open brings your workspace forward, restores it if minimized, or
+reopens it after closing the window. The icon appears while Moblift is running.
+Hide or show it in **Settings → General → Show Moblift in the menu bar**.
+
 ## Compare
 
 Click **Detach** (⇧⌘D) for a standalone phone with a small floating toolbar.

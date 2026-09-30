@@ -4,7 +4,7 @@ Capture full-resolution screenshots from an iPhone or a screen recording, then o
 
 ## Download
 
-**[Download Moblift 0.16.2 for Mac](https://github.com/crnelious/Moblift-downloads/releases/latest/download/Moblift-macOS.zip)** · approximately 76 MB
+**[Download Moblift 0.16.3 for Mac](https://github.com/crnelious/Moblift-downloads/releases/latest/download/Moblift-macOS.zip)** · approximately 76 MB
 
 Requires an **Apple Silicon Mac (M1 or newer)** running **macOS 14 or later**. Intel Macs and Windows are not supported by this build. Built using the macOS 27 SDK; the app declares macOS 14 as its minimum version. Compatibility has not been checked on every supported macOS version.
 
@@ -25,6 +25,13 @@ Moblift is **Developer ID-signed and notarized by Apple**. macOS may still show 
 - Captures are saved locally on your Mac. The download contains no capture library.
 
 The optional experimental iPhone remote-control feature requires Xcode and additional setup. Ordinary capture and video import do not require that setup. See the [quick start](Quick-Start.md).
+
+## Menu bar
+
+Click the small Mobbin mark in the Mac menu bar to **Open Moblift** or **Quit
+Moblift**. Open brings your workspace forward, restores it if minimized, or
+reopens it after closing the window. The icon appears while Moblift is running.
+Hide or show it in **Settings → General → Show Moblift in the menu bar**.
 
 ## Updates and package contents
 
