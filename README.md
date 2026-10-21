@@ -6,7 +6,7 @@ Capture full-resolution screenshots from an iPhone or a screen recording, then o
 
 ## Download
 
-**[Download Moblift 0.16.4 for Mac](https://github.com/crnelious/Moblift-downloads/releases/latest/download/Moblift-macOS.zip)** · approximately 76 MB
+**[Download Moblift 0.17.0 for Mac](https://github.com/crnelious/Moblift-downloads/releases/latest/download/Moblift-macOS.zip)**
 
 Requires an **Apple Silicon Mac (M1 or newer)** running **macOS 14 or later**. Intel Macs and Windows are not supported by this build. Built using the macOS 27 SDK; the app declares macOS 14 as its minimum version. Compatibility has not been checked on every supported macOS version.
 
@@ -37,7 +37,14 @@ Hide or show it in **Settings → General → Show Moblift in the menu bar**.
 
 ## Updates and package contents
 
-This build does not update automatically. Download a newer release here when one is available.
+Moblift checks for updates automatically and asks before downloading and restarting
+to install them. Choose **Moblift → Check for Updates…** to check manually. Manage
+automatic checks in **Settings → General → Updates**. Active capture sessions and
+file operations finish before an update restarts the app; your local library stays
+in place.
+
+Versions 0.16.4 and earlier need one manual installation of this version to enable
+in-app updates. Quit the old app, then replace it in Applications.
 
 This repository distributes the packaged Mac app and user instructions. The main Mac app source repository remains private. The app includes third-party runtime dependencies and two Moblift helper source files used to build its optional on-device remote-control helper. Third-party license files are included with the bundled runtime.
 

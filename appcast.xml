@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><!-- sparkle-sign-warning:
+IMPORTANT: This file was signed by Sparkle. Any modifications to this file requires re-signing this file with generate_appcast or sign_update! The signed signature will be embedded at the end of this file.
+--><rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
+  <channel>
+    <title>Moblift updates</title>
+    <item>
+      <title>Moblift 0.17.0</title>
+      <pubDate>Wed, 21 Oct 2026 18:15:08 GMT</pubDate>
+      <sparkle:version>30</sparkle:version>
+      <sparkle:shortVersionString>0.17.0</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0.0</sparkle:minimumSystemVersion>
+      <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+      <description>&lt;p&gt;Signed in-app updates are now available.&lt;/p&gt;&lt;p&gt;Check for a new version from **Moblift → Check for Updates…**.&lt;/p&gt;&lt;p&gt;Manage automatic update checks in **Settings → General → Updates**.&lt;/p&gt;&lt;p&gt;Moblift asks before downloading and restarting, and waits for active capture sessions and file operations to finish.&lt;/p&gt;&lt;p&gt;Your saved apps, flows, screens, and recordings stay in place across updates.&lt;/p&gt;&lt;p&gt;If you are upgrading from 0.16.4 or earlier, quit the old app and replace it in Applications once to enable in-app updates.&lt;/p&gt;</description>
+      <enclosure url="https://github.com/crnelious/Moblift-downloads/releases/download/v0.17.0/Moblift-macOS.zip" length="76876645" type="application/octet-stream" sparkle:edSignature="i4eT/4xRD5BGIkeQ+of0cMnek3DREfxJmU8ZThPeiIowg0WXmBQU0IWFimNDxsEQ/OgFdlZPOrEfcEs/wTHrAg=="></enclosure>
+    </item>
+  </channel>
+</rss><!-- sparkle-signatures:
+edSignature: RLq2Lhyw8KGM2n9JTiLMdVRxfsSMC1TXxoklYGOMymaXCbZ6B/EXtBaGN8vX9U87zYJ8ZHRrLZIO3f2Hn+siDw==
+length: 1749
+-->

@@ -1,14 +1,18 @@
-Moblift **0.16.4** · build 29 · Developer ID-signed and notarized by Apple.
+Moblift **0.17.0** · build 30 · Developer ID-signed and notarized by Apple.
 
 **[Download Moblift for Mac](https://github.com/crnelious/Moblift-downloads/releases/latest/download/Moblift-macOS.zip)**
 
-Maintenance update with the same capture and menu bar features as 0.16.3.
+Signed in-app updates are now available.
 
-- Includes the Mobbin menu bar icon, Open Moblift, Quit Moblift, and the visibility toggle in Settings → General.
-- Uses the unified release process for consistent signing, notarization, and packaging.
+- Check for a new version from **Moblift → Check for Updates…**.
+- Manage automatic update checks in **Settings → General → Updates**.
+- Moblift asks before downloading and restarting, and waits for active capture sessions and file operations to finish.
+- Your saved apps, flows, screens, and recordings stay in place across updates.
 
-Quit Moblift before replacing the app in Applications. Requires Apple Silicon and macOS 14 or later. Automatic app updates are not included.
+If you are upgrading from 0.16.4 or earlier, quit the old app and replace it in Applications once to enable in-app updates.
+
+Quit Moblift before replacing the app in Applications. Requires Apple Silicon and macOS 14 or later. Includes signed in-app updates. Use Moblift → Check for Updates… or Settings → General to manage automatic checks.
 
 See the attached **Moblift-Quick-Start.md** for setup. Download the ZIP asset for the app; GitHub's source archives contain only download-repository documentation.
 
-<!-- Built from private source commit e906e90faedc7223b070ae0977908c0aea256ec4 -->
+<!-- Built from private source commit 99e8420be05010667724db53c74375257625070c -->

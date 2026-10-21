@@ -14,6 +14,17 @@ Shopping app → Checkout → Cart, Delivery, Payment, Confirmation.
 4. **Space** captures the iPhone screen. **⇧⌘R** starts and stops recording.
    Captures save automatically on this Mac.
 
+## Updates
+
+Choose **Moblift → Check for Updates…**, or open **Settings → General → Updates**.
+Automatic checks are on by default; you can turn them off there. Updates are
+signed and ask before downloading and restarting. Finish your capture session
+and any export before installing. Your saved apps, flows, screens, and recordings
+stay on this Mac.
+
+If you have version 0.16.4 or earlier, quit it and manually replace it in
+Applications once. Future updates can install inside Moblift.
+
 ## Menu bar
 
 Click the small Mobbin mark in the Mac menu bar to **Open Moblift** or **Quit
